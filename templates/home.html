@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="home">
+    <h1>{{ header }}</h1>
+    {% autoescape false %}
+        {{ info }}
+    {% endautoescape %}
+</div>
+{% endblock %}
