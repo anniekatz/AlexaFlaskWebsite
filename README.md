@@ -2,7 +2,10 @@
 Flask web app to run Amazon Alexa Jeopardy Script daily <br>
 Prints the day's Amazon Alexa Jeopardy Answers to home page daily <br>
 
-Currently, the site runs on a Linode Ubuntu server using NGINX and Gunicorn <br>
+Server/Hosting: Ubuntu 20.04 on Linode
+Deployment: NGINX and Gunicorn
+Encryption: Let's Encrypt SSL managed by Certbot
+
 The website's URL is www.alexa-answers.com <br>
 
 The next steps for the website include:
