@@ -63,5 +63,3 @@ def process_jeopardy():
 
     # Write today's clues to the file
     return output
-header = create_header()
-info = process_jeopardy()

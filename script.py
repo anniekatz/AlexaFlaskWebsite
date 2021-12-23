@@ -1,7 +1,12 @@
 from datetime import datetime
 import html
 from flask import Flask, render_template
-from process_jeopardy import info, header
+from process_jeopardy import create_header, process_jeopardy
+
+
+info = process_jeopardy()
+header = create_header()
+
 
 app = Flask(__name__)
 
